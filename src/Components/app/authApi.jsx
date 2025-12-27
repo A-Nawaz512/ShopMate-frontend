@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 const Auth = createApi({
 
     reducerPath: "Auth",
-    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/api/v1" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "https://shopmate-backend-3.onrender.com/api/v1" }),
     endpoints: (builder) => ({
 
         sendOTP: builder.mutation({
