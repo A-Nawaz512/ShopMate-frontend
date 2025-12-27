@@ -9,7 +9,7 @@ const CreateNewPassword = () => {
 
   const location = useLocation()
 
-  console.log("New Data of email", location);
+  console.log("New Data of email", location); 
 
   const email = location?.state.email
 
